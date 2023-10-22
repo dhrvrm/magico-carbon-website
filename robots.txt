@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /.git/
+Disallow: /.well-known/
+Disallow: /.cgi-bin/
+Disallow: /.htaccess
+Disallow: /.gitattributes
+Disallow: /.README.md
+Disallow: /ssl
+
+
+Sitemap: https://magicocarbon.com/sitemap.xml

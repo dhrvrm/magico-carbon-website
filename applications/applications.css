@@ -1,0 +1,115 @@
+.contact_hero__section {
+    margin-top: 6.5rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        url(../assets/images/applications-banner.webp);
+}
+
+.application__about {
+    display: flex;
+    gap: 4rem;
+    text-align: left;
+    padding: 4rem 24rem;
+
+    margin-inline: auto;
+}
+
+.application__about img {
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+
+.application__about_heading {
+    font-size: 3.2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+
+.applications__section {
+    background-color: unset;
+    color: #010E3A;
+}
+
+.applications {
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+    padding: 2rem 20rem;
+}
+
+.application {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+}
+
+/* .application-reverse {
+    flex-direction: row-reverse;
+} */
+
+.application img {
+    width: 20rem;
+    border-radius: 0.5rem;
+    object-fit: cover;
+}
+
+.application_details {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+}
+
+.application_heading {
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+
+/* .applications>:nth-child(1) {
+    grid-column: unset;
+}
+
+.applications>:nth-child(5) {
+    grid-column: unset;
+} */
+
+.applications {
+    max-width: unset;
+}
+
+@media screen and (max-width: 768px) {
+
+    .application__about {
+        flex-direction: column-reverse;
+        padding-inline: 4rem;
+        font-size: 1.4rem;
+    }
+
+    .application__about_heading {
+        font-size: 2.4rem;
+    }
+
+    .application__about img {
+        height: 300px;
+        width: 300px;
+    }
+
+    .applications {
+
+        padding: 0;
+    }
+
+
+    .application, .application-reverse {
+        flex-direction: column;
+        gap: 1.8rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .product__section_heading {
+        margin-top: 0rem;
+    }
+}
